@@ -112,8 +112,8 @@ CREATE TABLE `students` (
 --
 
 INSERT INTO `students` (`id`, `nim`, `name`, `gender`, `departement`, `address`, `created_at`, `updated_at`) VALUES
-(2, 1810000, 'Bagus bayu', 'L', 'S1 RPL', 'Purwokerto', '2022-01-02 20:31:34', '2022-01-02 20:31:34'),
-(3, 1910000, 'Rifqi Alfinnur', 'L', 'S1 RPL', 'Ponorogo Jawa Timur', '2022-01-02 20:31:50', '2022-01-02 20:49:22');
+(2, 18100007, 'Asepuloh', 'L', 'S1 RPL', 'Bandung', '2022-01-02 20:31:34', '2022-01-02 20:31:34'),
+(3, 19104007, 'Fajar Ahadi', 'L', 'S1 RPL', 'Cirebon', '2022-01-02 20:31:50', '2022-01-02 20:49:22');
 
 -- --------------------------------------------------------
 
