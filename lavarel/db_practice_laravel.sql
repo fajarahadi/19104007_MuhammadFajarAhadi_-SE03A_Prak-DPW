@@ -2,10 +2,10 @@
 -- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost
--- Generation Time: Jan 10, 2022 at 04:41 AM
--- Server version: 10.4.21-MariaDB
--- PHP Version: 8.0.12
+-- Host: 127.0.0.1
+-- Generation Time: Jan 21, 2022 at 04:53 PM
+-- Server version: 10.4.22-MariaDB
+-- PHP Version: 8.1.0
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -112,8 +112,9 @@ CREATE TABLE `students` (
 --
 
 INSERT INTO `students` (`id`, `nim`, `name`, `gender`, `departement`, `address`, `created_at`, `updated_at`) VALUES
-(2, 18100007, 'Asepuloh', 'L', 'S1 RPL', 'Bandung', '2022-01-02 20:31:34', '2022-01-02 20:31:34'),
-(3, 19104007, 'Fajar Ahadi', 'L', 'S1 RPL', 'Cirebon', '2022-01-02 20:31:50', '2022-01-02 20:49:22');
+(2, 18100009, 'Asepuloh', 'L', 'S1 Informatika', 'Bandung', '2022-01-02 20:31:34', '2022-01-21 02:22:19'),
+(3, 19104007, 'Fajar Ahadi', 'L', 'S1 RPL', 'Cirebon', '2022-01-02 20:31:50', '2022-01-21 02:18:53'),
+(5, 19104046, 'Siti Jenab', 'P', 'S1 RPL', 'Bandung', '2022-01-21 02:20:27', '2022-01-21 02:20:27');
 
 -- --------------------------------------------------------
 
@@ -202,7 +203,7 @@ ALTER TABLE `personal_access_tokens`
 -- AUTO_INCREMENT for table `students`
 --
 ALTER TABLE `students`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `users`
