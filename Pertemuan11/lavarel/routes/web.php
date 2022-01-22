@@ -27,7 +27,10 @@ Route::get('/', function () {
 // Route::get('/beranda', 'myController@index');
 
 // Penulisan di laravel 8
-Route::get('/beranda', [myController::class, 'index']);
+// Route::get('/beranda', [myController::class, 'index']);
+route::get('/', function() {
+    return redirect('/mahasiswa');
+});
 
 // Langsung ke view
 //Route::view('/beranda', 'beranda');
