@@ -20,7 +20,7 @@ Route::get('/', function () {
 
 
 // Ketika mengakses url beranda dengan method get,
-// Maka akan diarahkan ke controller 
+// Maka akan diarahkan ke controller
 
 
 // Laravel 7
